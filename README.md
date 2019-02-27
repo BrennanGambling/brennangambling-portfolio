@@ -6,9 +6,9 @@ The goal of the bloc_flux package is to take the best parts of the Flux and BLoC
 ![General Architecture][general_architecture_img]
 
 The general architecture of a bloc_flux application is similar to that of a Flux application. 
-A bloc_flux application consists of a single Dispatcher that dispatches Actions to all registered Blocs. 
-All data flows from component to component in [Observables][observable_api].
-Observables (from [RxDart][rxdart_api]) are like streams with more built in features for stream transformations and are by default **synchronous** whereas most stream implementations are **asynchronous**.
+A bloc_flux application consists of a single **Dispatcher** that dispatches **Actions** to all registered **Blocs**. 
+All data flows from component to component in Observables.
+**Observables** (from RxDart) are like streams with more built in features for stream transformations and are by default **synchronous** whereas most stream implementations are **asynchronous**.
 The only input and output to the Dispatcher occur in the form of Actions. 
 The Blocs then receive any dispatched Actions from the Dispatchers actionObservable. 
 The Blocs do not receive input from anywhere else. 
