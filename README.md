@@ -17,7 +17,7 @@ Any changed values will be added to an output Observable.
 Views listen to the output observables on the Blocs and rebuild whenever a new value is available. 
 The output observable also emits the last emitted value to every new listener so default init values do not have to be specified.
 
-## [Wayback][wayback_main]
+## [WayBack][wayback_main]
 <div style="text-align: center">
     <table>
         <tr>
