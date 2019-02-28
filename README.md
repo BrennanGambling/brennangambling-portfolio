@@ -45,11 +45,21 @@ The output observable also emits the last emitted value to every new listener so
     </table>
 </div>
 
-WayBack uses your phones sensors to determine where you park.
+### Overview
+Using seven seven different sensor WayBack determines when you have parked your car.
+This location is saved so if you forget where you parked you will have no problem finding your WayBack.
 
-How often do you park your only to forget where? With WayBack this will never happen again. 
-Using 7 different phones sensors WayBack determines when you were in a moving car and the car has stopped. 
-This is where your car is parked and the location is saved.
+### Tour
+On first start of the application a background service is started that using multiple phone sensors determined when you have parked your car.
+When the phone detects the user was in a moving car and they no longer are that means they must have parked their car.
+
+
+To find the location of your car you can either click the "Find Car" button in the notification, or click on the car icon on the map.
+This will open Google Maps with walking directions to your car.
+
+
+By default WayBack will only display the last parking location on the map.
+Older parking locations can be access from the Places page avaliable through the action menu.
 
 ## [PotholeReporter][pothole_reporter_main]
 <div style="text-align: center">
