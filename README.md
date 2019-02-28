@@ -22,24 +22,24 @@ The output observable also emits the last emitted value to every new listener so
     <table>
         <tr>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_base.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_base.png?raw=true" width="150"/>
             </td>            
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_center_location.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_center_location.png?raw=true" width="150"/>
             </td>  
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/notification.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/notification.png?raw=true" width="150"/>
             </td>   
         </tr>
         <tr>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_center_car.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/map_center_car.png?raw=true" width="150"/>
             </td>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/on_maps.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/on_maps.png?raw=true" width="150"/>
             </td>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/directions.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/assets/screenshots/directions.png?raw=true" width="150"/>
             </td>
         </tr>
     </table>
@@ -56,19 +56,19 @@ This is where your car is parked and the location is saved.
     <table>
         <tr>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/map_page.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/map_page.png?raw=true" width="150"/>
             </td>            
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/report_page.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/report_page.png?raw=true" width="150"/>
             </td>
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/email_page.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/email_page.png?raw=true" width="150"/>
             </td>     
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/main_page.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/main_page.png?raw=true" width="150"/>
             </td>     
             <td style="text-align: center">
-                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/settings_page.png?raw=true" width="200"/>
+                <img src="https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/assets/screenshots/settings_page.png?raw=true" width="150"/>
             </td>  
         </tr>
     </table>
