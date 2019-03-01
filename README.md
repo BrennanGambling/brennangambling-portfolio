@@ -83,15 +83,23 @@ Older parking locations can be access from the Places page avaliable through the
         </tr>
     </table>
 </div>
-Pothole Reporter allows you to quickly report potholes to the appropriate city officials. 
-All you have to do is take a picture of the pothole in the application and then hit the “Send Email” button. 
-The location of the pothole is taken from your phones GPS and based off of the latitude and longitude the app determines what city you are in. 
-You can also report potholes using a Google Maps pin Drop. 
-Based off of this information the address component of the email is auto filled based on the received location. 
-The Subject line and body of the email is also auto filled. 
-The body of the email consists of the latitude and longitude of the location at which the photo was taken and a picture of the pothole.
 
+### Overview
+Pothole Reporter allows you to quickly report potholes to the appropriate city officials based on their location.
+All the user has to do is take a picture of the pothole and hit the "Send" button.
+An email application will be opened with a preformatted email including the location and picture of the pothole addressed to the approriate city email address.
+Currently support is limited to 50 large Ontario cities.
 
+### Tour
+#### Creating A Report
+On the main page there are two buttons one to take a picture of the pothole and one to drop a pin on a map.
+
+When the "Take Picture" button is pressed an Intent for a camera application is launched and the user takes a picture of the pothole.
+After the picture is taken a report page will be shown with the location of the pothole and picture as well as the city email address.
+
+When the "Drop Pin" button is pressed a map screen is opened where the user pans can drop a pin on the location of the pothole.
+The pin will initially be placed on the users current location.
+After the user hits the "Done" button the report page is launch with the location of the pothole and a Google Street View image of the location as well as the city email address.
 
 [pothole_reporter_main]: https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/pothole-reporter/README.md
 [wayback_main]: https://github.com/BrennanGambling/brennangambling-portfolio/blob/master/wayback/README.md
