@@ -32,7 +32,7 @@ Currently support is limited to 50 large Ontario cities.
 On the main page there are two buttons, one to take a picture of the pothole and one to drop a pin on a map.
 
 When the "Take Picture" button is pressed an Intent for a camera application is launched and the user takes a picture of the pothole.
-After the picture is taken a report page will be shown with the location of the pothole and picture, as well as the city email address.
+After the picture is taken, a report page will be shown with the location of the pothole and picture, as well as the city email address.
 
 When the "Drop Pin" button is pressed a map screen is opened where the user can drop a pin on the location of the pothole.
 The pin will initially be placed on the users current location.
@@ -41,13 +41,13 @@ After the user hits the "Done" button the report page is launched with the locat
 #### Sending A Report
 When the email Intent is launched the email will already be populated with the location (in the form of latitude and longitude pair) as well as the picture of the pothole/location.
 The email will automatically be addressed to a city email address depending on the city the pothole is in.
-At this point the user can send add extra information or just hit the send button.
+At this point the user can send additional information or just hit the send button.
 
 ## How It Works
 #### Take Picture Mode
 When the user clicks the "Take Picture" button on the main screen an Intent for a camera application is launched.
 The picture taken with the camera app is the picture used in the report.
-After the picture is taken the GPS is queried for the users current location.
+After the picture is taken, the GPS is queried for the users current location.
 This location is used for the report.
 
 #### Pin Drop Mode
@@ -59,7 +59,7 @@ An HTTP request is sent to the Google Street View API containing the location of
 The API returns a link to a Google Street View image that will be used as the picture in the report.
 
 #### Determining Location
-If the "Take Picture" mode is used the location will be determined by querying the GPS.
+If the "Take Picture" mode is used, the location will be determined by querying the GPS.
 For the "Drop Pin" mode the location is the location of the pin dropped on the map.
 
 #### Determining Email Address
@@ -72,6 +72,6 @@ The API server returns a JSON object which is parsed before obtaining the city n
 Currently this map only contains 50 large Ontario cities.
 
 #### Sending Email
-When the user clicks the "Send" button an Intent for an email application is sent.
+When the user clicks the "Send" button, an Intent for an email application is sent.
 The Intent includes the recipient email address (cities email address), the location and the picture either taken by the user or obtained from the Google Street View API.
-The user can add extra information if needed than can send the email.
+The user can include additional information if needed and then send the email.
