@@ -27,12 +27,12 @@
 </div>
 
 ## Overview
-Using seven seven different sensor WayBack determines when you have parked your car.
+Using seven different sensors, WayBack determines when you have parked your car.
 This location is saved so if you forget where you parked you will have no problem finding your WayBack.
 
 ## Tour
-On first start of the application a background service is started that using multiple phone sensors determined when you have parked your car.
-When the phone detects the user was in a moving car and they no longer are that means they must have parked their car.
+The first time the application, a background service is started that using multiple phone sensors determined when you have parked your car.
+When the phone detects the user was in a moving car and then they no longer are, that means they must have parked their car.
 
 
 To find the location of your car you can either click the "Find Car" button in the notification, or click on the car icon on the map.
@@ -40,7 +40,7 @@ This will open Google Maps with walking directions to your car.
 
 
 By default WayBack will only display the last parking location on the map.
-Older parking locations can be access from the Places page avaliable through the action menu.
+Older parking locations can be accessed from the Places page avaliable through the action menu.
 
 ## How It Works
 WayBack's background service registers "Fences" with callbacks that will be called when the user's current "activity" changes.
