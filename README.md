@@ -50,7 +50,7 @@ Using seven different sensors, WayBack determines when you have parked your car.
 This location is saved so if you forget where you parked you will have no problem finding your WayBack.
 
 ### Tour
-The first time the application, a background service is started that using multiple phone sensors determined when you have parked your car.
+The first time the application is opened, a background service is started that using multiple phone sensors determined when you have parked your car.
 When the phone detects the user was in a moving car and then they no longer are, that means they must have parked their car.
 
 
