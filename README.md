@@ -46,7 +46,7 @@ The output observable also emits the last emitted value to every new listener so
 </div>
 
 ### Overview
-Using seven seven different sensor WayBack determines when you have parked your car.
+Using seven different sensors, WayBack determines when you have parked your car.
 This location is saved so if you forget where you parked you will have no problem finding your WayBack.
 
 ### Tour
