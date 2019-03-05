@@ -29,14 +29,14 @@ Currently support is limited to 50 large Ontario cities.
 
 ## Tour
 #### Creating A Report
-On the main page there are two buttons one to take a picture of the pothole and one to drop a pin on a map.
+On the main page there are two buttons, one to take a picture of the pothole and one to drop a pin on a map.
 
 When the "Take Picture" button is pressed an Intent for a camera application is launched and the user takes a picture of the pothole.
-After the picture is taken a report page will be shown with the location of the pothole and picture as well as the city email address.
+After the picture is taken a report page will be shown with the location of the pothole and picture, as well as the city email address.
 
-When the "Drop Pin" button is pressed a map screen is opened where the user pans can drop a pin on the location of the pothole.
+When the "Drop Pin" button is pressed a map screen is opened where the user can drop a pin on the location of the pothole.
 The pin will initially be placed on the users current location.
-After the user hits the "Done" button the report page is launch with the location of the pothole and a Google Street View image of the location as well as the city email address.
+After the user hits the "Done" button the report page is launched with the location of the pothole and a Google Street View image of the location, as well as the city email address.
 
 #### Sending A Report
 When the email Intent is launched the email will already be populated with the location (in the form of latitude and longitude pair) as well as the picture of the pothole/location.
